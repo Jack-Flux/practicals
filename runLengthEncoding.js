@@ -11,6 +11,7 @@ module.exports = (pattern) => {
     if(previousNumber !== number) {
       newPat.push(`${numberCount}x${previousNumber}`);
       previousNumber = number;
+      numberCount = 1;
     }
   });
   newPat.push(`${numberCount}x${previousNumber}`);
