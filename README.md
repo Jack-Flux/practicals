@@ -1,2 +1,2 @@
-# practicals
+# Practicals
 Classwork practicals
