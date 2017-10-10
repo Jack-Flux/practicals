@@ -1,5 +1,4 @@
 module.exports = palindrome = (name) => {
-  let temp = name.split('');
-  if (temp.length === 0) return true;
-  return temp[0] === temp[temp.length-1] ? palindrome(temp.splice(0,1).splice((temp.length-1), 1).join('')) : false;
+  if (name.length === 0) return true;
+  return name[0] === name[name.length-1] ? palindrome(name.slice(1, name.length-1)) : false;
 };
