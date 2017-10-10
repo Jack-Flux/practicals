@@ -14,9 +14,7 @@ module.exports = (pattern) => {
       numberCount = 1;
     }
   });
+  
   newPat.push(`${numberCount}x${previousNumber}`);
-
-  console.log(`Old length ${pattern.length}\nNew length ${newPat.length}`);
-  console.log(`Total zeros ${totalZeros}\nTotal ones ${totalOnes}`);
   return newPat
 }
