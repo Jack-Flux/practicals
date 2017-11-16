@@ -1,2 +1,2 @@
 # Practicals
-Classwork practicals
+Basic college practicals
